@@ -28,7 +28,7 @@
                         </goals>
                         <configuration>
                             <referenceBranch>C:\workspace-git\multimodule\.git</referenceBranch>
-                            <uncommited>false</uncommited>
+                            
                             <ignoreChanged>com.rabo:multimodule</ignoreChanged>
                         </configuration>
                     </execution>
