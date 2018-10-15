@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.rabo.module1</groupId>
+    <groupId>com.rabo</groupId>
     <artifactId>module1</artifactId>
 
 
