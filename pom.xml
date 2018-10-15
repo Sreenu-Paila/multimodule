@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
@@ -18,6 +18,15 @@
         <module>module3</module>
     </modules>
     <packaging>pom</packaging>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.rabo.module1</groupId>
+                <artifactId>module1</artifactId>
+                <version>${revision}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
     <build>
         <plugins>
             <plugin>
@@ -62,28 +71,28 @@
                         </configuration>
                     </execution>
                 </executions>
-               <!-- <dependencies>
-                    <dependency>
-                        <groupId>com.google.inject</groupId>
-                        <artifactId>guice</artifactId>
-                        <version>4.2.0</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>org.eclipse.jgit</groupId>
-                        <artifactId>org.eclipse.jgit</artifactId>
-                        <version>5.0.1.201806211838-r</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.github.goldin</groupId>
-                        <artifactId>maven-common</artifactId>
-                        <version>0.2.5</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>org.apache.commons</groupId>
-                        <artifactId>commons-lang3</artifactId>
-                        <version>3.0</version>
-                    </dependency>
-                </dependencies>-->
+                <!-- <dependencies>
+                     <dependency>
+                         <groupId>com.google.inject</groupId>
+                         <artifactId>guice</artifactId>
+                         <version>4.2.0</version>
+                     </dependency>
+                     <dependency>
+                         <groupId>org.eclipse.jgit</groupId>
+                         <artifactId>org.eclipse.jgit</artifactId>
+                         <version>5.0.1.201806211838-r</version>
+                     </dependency>
+                     <dependency>
+                         <groupId>com.github.goldin</groupId>
+                         <artifactId>maven-common</artifactId>
+                         <version>0.2.5</version>
+                     </dependency>
+                     <dependency>
+                         <groupId>org.apache.commons</groupId>
+                         <artifactId>commons-lang3</artifactId>
+                         <version>3.0</version>
+                     </dependency>
+                 </dependencies>-->
             </plugin>
         </plugins>
     </build>
