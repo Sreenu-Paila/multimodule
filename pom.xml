@@ -28,6 +28,9 @@
         <partial.outputFile>changed.projects</partial.outputFile>
         <partial.writeChanged>false</partial.writeChanged>
     </properties>
+    <scm>
+        <developerConnection>scm:git:file:///C:/workspace-git/multimodule</developerConnection>
+    </scm>
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -55,6 +58,9 @@
                 <version>2.5.3</version>
                 <configuration>
                     <tagNameFormat>R@{project.version}</tagNameFormat>
+                    <tagBase>
+                        file:///C:/workspace-git/multimodule/tag
+                    </tagBase>
                 </configuration>
             </plugin>
             <!-- <plugin>
@@ -123,13 +129,13 @@
         <snapshotRepository>
             <id>nexus 3 rabo snapshot</id>
             <name>Nexus Repo</name>
-            <url>C:\sreenu\softwares\apache-maven-3.5.4\repo/</url>
+            <url>file:///C:\sreenu\softwares\apache-maven-3.5.4\repo/</url>
             <uniqueVersion>false</uniqueVersion>
         </snapshotRepository>
         <repository>
             <id>nexus3-smartpredit-</id>
             <name>Nexus Repo</name>
-            <url>C:\sreenu\softwares\apache-maven-3.5.4\repo</url>
+            <url>file:///C:\sreenu\softwares\apache-maven-3.5.4\repo</url>
         </repository>
     </distributionManagement>
 
