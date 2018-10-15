@@ -15,7 +15,6 @@
         <dependency>
             <groupId>com.rabo</groupId>
             <artifactId>module1</artifactId>
-            <version>RELEASE</version>
         </dependency>
     </dependencies>
 
