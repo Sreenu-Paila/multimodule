@@ -33,7 +33,7 @@
                         </configuration>
                     </execution>
                 </executions>
-                <dependencies>
+               <!-- <dependencies>
                     <dependency>
                         <groupId>com.google.inject</groupId>
                         <artifactId>guice</artifactId>
@@ -54,7 +54,7 @@
                         <artifactId>commons-lang3</artifactId>
                         <version>3.0</version>
                     </dependency>
-                </dependencies>
+                </dependencies>-->
             </plugin>
         </plugins>
     </build>
