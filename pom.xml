@@ -29,7 +29,7 @@
         <partial.writeChanged>false</partial.writeChanged>
     </properties>
     <scm>
-        <developerConnection>scm:git:file:///C:/workspace-git/multimodule</developerConnection>
+        <developerConnection>scm:git:https://github.com/Sreenu-Paila/multimodule.git</developerConnection>
     </scm>
     <dependencyManagement>
         <dependencies>
@@ -95,7 +95,7 @@
                         </goals>
 
                         <configuration>
-                            <referenceBranch>C:\workspace-git\multimodule\.git</referenceBranch>
+                            <referenceBranch>https://github.com/Sreenu-Paila/multimodule.git</referenceBranch>
                             <ignoreChanged>com.rabo:multimodule</ignoreChanged>
                         </configuration>
                     </execution>
