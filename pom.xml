@@ -58,9 +58,6 @@
                 <version>2.5.3</version>
                 <configuration>
                     <tagNameFormat>R@{project.version}</tagNameFormat>
-                    <tagBase>
-                        file:///C:/workspace-git/multimodule/tag
-                    </tagBase>
                 </configuration>
             </plugin>
             <!-- <plugin>
