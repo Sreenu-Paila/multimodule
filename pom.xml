@@ -11,7 +11,7 @@
     </parent>
     <groupId>com.rabo</groupId>
     <artifactId>multimodule</artifactId>
-    <version>R04.00.00-SNAPSHOT</version>
+    <version>04.00.00-SNAPSHOT</version>
     <modules>
         <module>module1</module>
         <module>module2</module>
@@ -36,7 +36,7 @@
             <dependency>
                 <groupId>com.rabo</groupId>
                 <artifactId>module1</artifactId>
-                <version>R04.00.00-SNAPSHOT</version>
+                <version>04.00.00-SNAPSHOT</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
