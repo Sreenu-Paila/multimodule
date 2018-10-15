@@ -58,7 +58,19 @@
             </plugin>
         </plugins>
     </build>
-
+    <distributionManagement>
+        <snapshotRepository>
+            <id>nexus 3 rabo snapshot</id>
+            <name>Nexus Repo</name>
+            <url>https://nexus3.rabobank.nl/repository/rabo-smartpredict-release/</url>
+            <uniqueVersion>false</uniqueVersion>
+        </snapshotRepository>
+        <repository>
+            <id>nexus3-smartpredit-</id>
+            <name>Nexus Repo</name>
+            <url>https://nexus3.rabobank.nl/repository/rabo-smartpredict-snapshot</url>
+        </repository>
+    </distributionManagement>
 
 
 </project>
