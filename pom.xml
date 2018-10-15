@@ -11,7 +11,7 @@
     </parent>
     <groupId>com.rabo</groupId>
     <artifactId>multimodule</artifactId>
-    <version>R04.00.00</version>
+    <version>R04.00.00-SNAPSHOT</version>
     <modules>
         <module>module1</module>
         <module>module2</module>
@@ -33,7 +33,7 @@
             <dependency>
                 <groupId>com.rabo</groupId>
                 <artifactId>module1</artifactId>
-                <version>R04.00.00</version>
+                <version>R04.00.00-SNAPSHOT</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -123,13 +123,13 @@
         <snapshotRepository>
             <id>nexus 3 rabo snapshot</id>
             <name>Nexus Repo</name>
-            <url>https://nexus3.rabobank.nl/repository/rabo-smartpredict-release/</url>
+            <url>C:\sreenu\softwares\apache-maven-3.5.4\repo/</url>
             <uniqueVersion>false</uniqueVersion>
         </snapshotRepository>
         <repository>
             <id>nexus3-smartpredit-</id>
             <name>Nexus Repo</name>
-            <url>https://nexus3.rabobank.nl/repository/rabo-smartpredict-snapshot</url>
+            <url>C:\sreenu\softwares\apache-maven-3.5.4\repo</url>
         </repository>
     </distributionManagement>
 
