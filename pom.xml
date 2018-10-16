@@ -58,6 +58,7 @@
                 <version>2.5.3</version>
                 <configuration>
                     <tagNameFormat>R@{project.version}</tagNameFormat>
+                    <autoversionsubmodules>true</autoversionsubmodules>
                 </configuration>
             </plugin>
             <!-- <plugin>
@@ -94,6 +95,7 @@
                         <configuration>
                             <referenceBranch>https://github.com/Sreenu-Paila/multimodule.git</referenceBranch>
                             <ignoreChanged>com.rabo:multimodule</ignoreChanged>
+                            <buildAnyways>com.rabo:module1</buildAnyways>
                         </configuration>
                     </execution>
                 </executions>
